@@ -97,6 +97,7 @@ a{
     vertical-align: top;
     text-rendering: auto;
     word-wrap:break-word;
+    padding: 10px;
 }
 
 .tidy-u-1-12,.tidy-u-2-24 {
@@ -327,11 +328,11 @@ a{
 }
 
 .btn-split-active{
-	background: rgb(205,205,205);
+	background: rgb(225,225,225);
 }
 
 .btn:hover{
-	background: rgb(205,205,205);
+	background: rgb(225,225,225);
 }
 
 .btn.btn-alpha:hover{
