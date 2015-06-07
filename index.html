@@ -85,7 +85,43 @@
 			<a href="" class="btn">普通正常按钮</a>
 			<a href="" class="btn btn-warning btn-lg">警告大按钮</a>
 			<a href="" class="btn btn-light btn-xl">轻色极大按钮</a>
+			<div style="margin-top:10px;" class="tidy-g">
+				<div class="tidy-u-1-3">
+					<ul class="btn-split">
+						<li><a href="" class="btn btn-split">A</a></li>
+						<li><a href="" class="btn btn-split btn-split-active">B</a></li>
+						<li><a href="" class="btn btn-split">C</a></li>
+					</ul>	
+				</div>
+				<div class="tidy-u-1-3">
+					<ul class="btn-split allow-multiselect">
+						<li><a href="" class="btn btn-split btn-split-active">A</a></li>
+						<li><a href="" class="btn btn-split">B</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.btn-split li').click(function(){
+			var _this=$(this);
+			var isAllowMultiselect=_this.parent().hasClass('allow-multiselect');
+			var _thisBtn=_this.find('a.btn');
+			var _thisBtnIndex=_this.index(0);
+			var _thisActive=_this.parent().find('li a.btn.btn-split-active');
+			var _thisActiveIndex=_thisActive.parent().index(0);
+			if(!isAllowMultiselect){
+				_thisActive.removeClass('btn-split-active');
+			}
+			if(_thisBtnIndex!=_thisActiveIndex || _thisActiveIndex==-1){
+				_thisBtn.addClass('btn-split-active');
+			}
+			return false;
+		});
+	});
+
+</script>
 </html>
