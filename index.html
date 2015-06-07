@@ -104,13 +104,57 @@
 				<div class="tidy-u-1-2">
 					<form class="tidy-form">
 					    <fieldset>
-					        <legend>A compact inline form</legend>
+					        <legend>行form</legend>
 					        <input type="email" placeholder="Email">
-					        <input type="password" placeholder="Password">
+					        <input type="password" disabled placeholder="Password">
 					        <label for="remember">
-					            <input id="remember" type="checkbox"> Remember me
+					            <input id="remember" type="checkbox"> 记住我
 					        </label>
-					        <button type="submit" class="btn">Sign in</button>
+					        <button type="submit" class="btn">登录</button>
+					    </fieldset>
+					</form>
+					<div class="tidy-g">
+						<div class="tidy-u-1">
+							<form class="tidy-form">
+							    <fieldset class="tidy-group">
+							        <input type="text" class="tidy-input-1-2" placeholder="Username">
+							        <input type="text" class="tidy-input-1-2" placeholder="Password">
+							        <input type="email" class="tidy-input-1-2" placeholder="Email">
+							    </fieldset>
+
+							    <fieldset class="tidy-group">
+							        <input type="text" class="tidy-input-1-2" placeholder="A title">
+							        <textarea class="tidy-input-1-2" placeholder="Textareas work too"></textarea>
+							    </fieldset>
+
+							    <button type="submit" class="btn">登录</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="tidy-u-1-2">
+					<form class="tidy-form tidy-form-stacked">
+	    				<fieldset>
+					        <legend>列Form</legend>
+
+					        <label for="email">Email</label>
+					        <input id="email" type="email" placeholder="Email">
+
+					        <label for="password">Password</label>
+					        <input id="password" type="password" placeholder="Password">
+
+					        <label for="state">State</label>
+					        <select id="state">
+					            <option>AL</option>
+					            <option>CA</option>
+					            <option>IL</option>
+					        </select>
+
+					        <label for="remember" class="tidy-checkbox">
+					            <input id="remember" type="checkbox"> 记住我
+					        </label>
+
+					        <button type="submit" class="btn">登录</button>
 					    </fieldset>
 					</form>
 				</div>

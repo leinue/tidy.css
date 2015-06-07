@@ -377,208 +377,294 @@ a{
 	font-size: 125%;
 }
 
-.tidy-form input[type=text],.tidy-form input[type=password],.tidy-form input[type=email],.tidy-form input[type=url],.tidy-form input[type=date],.tidy-form input[type=month],.tidy-form input[type=time],.tidy-form input[type=datetime],.tidy-form input[type=datetime-local],.tidy-form input[type=week],.tidy-form input[type=number],.tidy-form input[type=search],.tidy-form input[type=tel],.tidy-form input[type=color],.tidy-form select,.tidy-form textarea {
+.tidy-form input[type=text],
+.tidy-form input[type=password],
+.tidy-form input[type=email],
+.tidy-form input[type=url],
+.tidy-form input[type=date],
+.tidy-form input[type=month],
+.tidy-form input[type=time],
+.tidy-form input[type=datetime],
+.tidy-form input[type=datetime-local],
+.tidy-form input[type=week],
+.tidy-form input[type=number],
+.tidy-form input[type=search],
+.tidy-form input[type=tel],
+.tidy-form input[type=color],
+.tidy-form select,
+.tidy-form textarea {
 	padding:.5em .6em;
 	display:inline-block;
 	border:1px solid #ccc;
-	box-shadow:inset 0 1px 3px #ddd;
-	border-radius:4px;
+	border-radius:2px;
 	vertical-align:middle;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	box-sizing:border-box
+	box-sizing:border-box;
 }
+
 .tidy-form input:not([type]) {
 	padding:.5em .6em;
 	display:inline-block;
 	border:1px solid #ccc;
-	box-shadow:inset 0 1px 3px #ddd;
-	border-radius:4px;
+	border-radius:2px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	box-sizing:border-box
+	box-sizing:border-box;
 }
+
 .tidy-form input[type=color] {
-	padding:.2em .5em
+	padding:.2em .5em;
 }
-.tidy-form input[type=text]:focus,.tidy-form input[type=password]:focus,.tidy-form input[type=email]:focus,.tidy-form input[type=url]:focus,.tidy-form input[type=date]:focus,.tidy-form input[type=month]:focus,.tidy-form input[type=time]:focus,.tidy-form input[type=datetime]:focus,.tidy-form input[type=datetime-local]:focus,.tidy-form input[type=week]:focus,.tidy-form input[type=number]:focus,.tidy-form input[type=search]:focus,.tidy-form input[type=tel]:focus,.tidy-form input[type=color]:focus,.tidy-form select:focus,.tidy-form textarea:focus {
+
+.tidy-form input[type=text]:focus,
+.tidy-form input[type=password]:focus,
+.tidy-form input[type=email]:focus,
+.tidy-form input[type=url]:focus,
+.tidy-form input[type=date]:focus,
+.tidy-form input[type=month]:focus,
+.tidy-form input[type=time]:focus,
+.tidy-form input[type=datetime]:focus,
+.tidy-form input[type=datetime-local]:focus,
+.tidy-form input[type=week]:focus,
+.tidy-form input[type=number]:focus,
+.tidy-form input[type=search]:focus,
+.tidy-form input[type=tel]:focus,
+.tidy-form input[type=color]:focus,
+.tidy-form select:focus,.tidy-form textarea:focus {
 	outline:0;
-	border-color:#129FEA
+	border-color:#129FEA;
 }
+
 .tidy-form input:not([type]):focus {
 	outline:0;
-	border-color:#129FEA
+	border-color:#129FEA;
 }
-.tidy-form input[type=file]:focus,.tidy-form input[type=radio]:focus,.tidy-form input[type=checkbox]:focus {
+
+.tidy-form input[type=file]:focus,
+.tidy-form input[type=radio]:focus,
+.tidy-form input[type=checkbox]:focus {
 	outline:thin solid #129FEA;
-	outline:1px auto #129FEA
+	outline:1px auto #129FEA;
 }
+
 .tidy-form .tidy-checkbox,.tidy-form .tidy-radio {
 	margin:.5em 0;
-	display:block
+	display:block;
 }
-.tidy-form input[type=text][disabled],.tidy-form input[type=password][disabled],.tidy-form input[type=email][disabled],.tidy-form input[type=url][disabled],.tidy-form input[type=date][disabled],.tidy-form input[type=month][disabled],.tidy-form input[type=time][disabled],.tidy-form input[type=datetime][disabled],.tidy-form input[type=datetime-local][disabled],.tidy-form input[type=week][disabled],.tidy-form input[type=number][disabled],.tidy-form input[type=search][disabled],.tidy-form input[type=tel][disabled],.tidy-form input[type=color][disabled],.tidy-form select[disabled],.tidy-form textarea[disabled] {
+
+.tidy-form input[type=text][disabled],
+.tidy-form input[type=password][disabled],
+.tidy-form input[type=email][disabled],
+.tidy-form input[type=url][disabled],
+.tidy-form input[type=date][disabled],
+.tidy-form input[type=month][disabled],
+.tidy-form input[type=time][disabled],
+.tidy-form input[type=datetime][disabled],
+.tidy-form input[type=datetime-local][disabled],
+.tidy-form input[type=week][disabled],
+.tidy-form input[type=number][disabled],
+.tidy-form input[type=search][disabled],
+.tidy-form input[type=tel][disabled],
+.tidy-form input[type=color][disabled],
+.tidy-form select[disabled],.tidy-form textarea[disabled] {
 	cursor:not-allowed;
 	background-color:#eaeded;
-	color:#cad2d3
+	color:#cad2d3;
 }
+
 .tidy-form input:not([type])[disabled] {
 	cursor:not-allowed;
 	background-color:#eaeded;
-	color:#cad2d3
+	color:#cad2d3;
 }
+
 .tidy-form input[readonly],.tidy-form select[readonly],.tidy-form textarea[readonly] {
 	background-color:#eee;
 	color:#777;
-	border-color:#ccc
+	border-color:#ccc;
 }
+
 .tidy-form input:focus:invalid,.tidy-form textarea:focus:invalid,.tidy-form select:focus:invalid {
 	color:#b94a48;
-	border-color:#e9322d
+	border-color:#e9322d;
 }
+
 .tidy-form input[type=file]:focus:invalid:focus,.tidy-form input[type=radio]:focus:invalid:focus,.tidy-form input[type=checkbox]:focus:invalid:focus {
-	outline-color:#e9322d
+	outline-color:#e9322d;
 }
+
 .tidy-form select {
 	height:2.25em;
 	border:1px solid #ccc;
-	background-color:#fff
+	background-color:#fff;
 }
+
 .tidy-form select[multiple] {
-	height:auto
+	height:auto;
 }
+
 .tidy-form label {
-	margin:.5em 0 .2em
+	margin:.5em 0 .2em;
 }
+
 .tidy-form fieldset {
 	margin:0;
 	padding:.35em 0 .75em;
-	border:0
+	border:0;
 }
+
 .tidy-form legend {
 	display:block;
 	width:100%;
 	padding:.3em 0;
 	margin-bottom:.3em;
 	color:#333;
-	border-bottom:1px solid #e5e5e5
+	border-bottom:1px solid #e5e5e5;
 }
+
 .tidy-form-stacked input[type=text],.tidy-form-stacked input[type=password],.tidy-form-stacked input[type=email],.tidy-form-stacked input[type=url],.tidy-form-stacked input[type=date],.tidy-form-stacked input[type=month],.tidy-form-stacked input[type=time],.tidy-form-stacked input[type=datetime],.tidy-form-stacked input[type=datetime-local],.tidy-form-stacked input[type=week],.tidy-form-stacked input[type=number],.tidy-form-stacked input[type=search],.tidy-form-stacked input[type=tel],.tidy-form-stacked input[type=color],.tidy-form-stacked input[type=file],.tidy-form-stacked select,.tidy-form-stacked label,.tidy-form-stacked textarea {
 	display:block;
-	margin:.25em 0
+	margin:.25em 0;
 }
+
 .tidy-form-stacked input:not([type]) {
 	display:block;
-	margin:.25em 0
+	margin:.25em 0;
 }
+
 .tidy-form-aligned input,.tidy-form-aligned textarea,.tidy-form-aligned select,.tidy-form-aligned .tidy-help-inline,.tidy-form-message-inline {
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
-	vertical-align:middle
+	vertical-align:middle;
 }
+
 .tidy-form-aligned textarea {
-	vertical-align:top
+	vertical-align:top;
 }
+
 .tidy-form-aligned .tidy-control-group {
-	margin-bottom:.5em
+	margin-bottom:.5em;
 }
+
 .tidy-form-aligned .tidy-control-group label {
 	text-align:right;
 	display:inline-block;
 	vertical-align:middle;
 	width:10em;
-	margin:0 1em 0 0
+	margin:0 1em 0 0;
 }
+
 .tidy-form-aligned .tidy-controls {
-	margin:1.5em 0 0 11em
+	margin:1.5em 0 0 11em;
 }
+
 .tidy-form input.tidy-input-rounded,.tidy-form .tidy-input-rounded {
 	border-radius:2em;
-	padding:.5em 1em
+	padding:.5em 1em;
 }
+
 .tidy-form .tidy-group fieldset {
-	margin-bottom:10px
+	margin-bottom:10px;
 }
+
 .tidy-form .tidy-group input,.tidy-form .tidy-group textarea {
 	display:block;
 	padding:10px;
 	margin:0 0 -1px;
 	border-radius:0;
 	position:relative;
-	top:-1px
+	top:-1px;
 }
+
 .tidy-form .tidy-group input:focus,.tidy-form .tidy-group textarea:focus {
-	z-index:3
+	z-index:3;
 }
+
 .tidy-form .tidy-group input:first-child,.tidy-form .tidy-group textarea:first-child {
 	top:1px;
 	border-radius:4px 4px 0 0;
-	margin:0
+	margin:0;
 }
+
 .tidy-form .tidy-group input:first-child:last-child,.tidy-form .tidy-group textarea:first-child:last-child {
 	top:1px;
 	border-radius:4px;
-	margin:0
+	margin:0;
 }
+
 .tidy-form .tidy-group input:last-child,.tidy-form .tidy-group textarea:last-child {
 	top:-2px;
 	border-radius:0 0 4px 4px;
-	margin:0
+	margin:0;
 }
+
 .tidy-form .tidy-group button {
-	margin:.35em 0
+	margin:.35em 0;
 }
+
 .tidy-form .tidy-input-1 {
-	width:100%
+	width:100%;
 }
+
 .tidy-form .tidy-input-2-3 {
-	width:66%
+	width:66%;
 }
+
 .tidy-form .tidy-input-1-2 {
-	width:50%
+	width:50%;
 }
+
 .tidy-form .tidy-input-1-3 {
-	width:33%
+	width:33%;
 }
+
 .tidy-form .tidy-input-1-4 {
-	width:25%
+	width:25%;
 }
+
 .tidy-form .tidy-help-inline,.tidy-form-message-inline {
 	display:inline-block;
 	padding-left:.3em;
 	color:#666;
 	vertical-align:middle;
-	font-size:.875em
+	font-size:.875em;
 }
+
 .tidy-form-message {
 	display:block;
 	color:#666;
 	font-size:.875em;
 }
+
 @media only screen and (max-width :480px) {
 	.tidy-form button[type=submit] {
 	margin:.7em 0 0;
 }
+
 .tidy-form input:not([type]),.tidy-form input[type=text],.tidy-form input[type=password],.tidy-form input[type=email],.tidy-form input[type=url],.tidy-form input[type=date],.tidy-form input[type=month],.tidy-form input[type=time],.tidy-form input[type=datetime],.tidy-form input[type=datetime-local],.tidy-form input[type=week],.tidy-form input[type=number],.tidy-form input[type=search],.tidy-form input[type=tel],.tidy-form input[type=color],.tidy-form label {
 	margin-bottom:.3em;
-	display:block
+	display:block;
 }
+
 .tidy-group input:not([type]),.tidy-group input[type=text],.tidy-group input[type=password],.tidy-group input[type=email],.tidy-group input[type=url],.tidy-group input[type=date],.tidy-group input[type=month],.tidy-group input[type=time],.tidy-group input[type=datetime],.tidy-group input[type=datetime-local],.tidy-group input[type=week],.tidy-group input[type=number],.tidy-group input[type=search],.tidy-group input[type=tel],.tidy-group input[type=color] {
-	margin-bottom:0
+	margin-bottom:0;
 }
+
 .tidy-form-aligned .tidy-control-group label {
 	margin-bottom:.3em;
 	text-align:left;
 	display:block;
-	width:100%
+	width:100%;
 }
+
 .tidy-form-aligned .tidy-controls {
-	margin:1.5em 0 0
+	margin:1.5em 0 0;
 }
+
 .tidy-form .tidy-help-inline,.tidy-form-message-inline,.tidy-form-message {
 	display:block;
 	font-size:.75em;
-	padding:.2em 0 .8em
+	padding:.2em 0 .8em;
 }
-
