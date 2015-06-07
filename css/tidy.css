@@ -11,7 +11,7 @@ body{
     padding: 0px;
     margin: 0px;
     line-height: 1.6;
-    /*background: rgb(240,240,240);*/
+   	background: rgb(241,241,241);
     font-family: "微软雅黑","FreeSans","Arimo","Droid Sans","Helvetica","Arial","sans-serif";
 }
 
@@ -96,6 +96,7 @@ a{
     word-spacing: normal;
     vertical-align: top;
     text-rendering: auto;
+    word-wrap:break-word;
 }
 
 .tidy-u-1-12,.tidy-u-2-24 {
@@ -223,7 +224,11 @@ a{
 }
 
 .tidy-visual{
-	border:1px solid rgb(0,0,0);
+	border:1px solid rgb(229,229,229);
+}
+
+.white-bg{
+	background: rgb(255,255,255);
 }
 
 /* >=568px tg-u-sm-* */
@@ -243,6 +248,7 @@ a{
 	.tidy-u-7-12, .tidy-u-8-12, .tidy-u-9-12, 
 	.tidy-u-10-12, .tidy-u-11-12, .tidy-u-12-12{
 		width: 100%;
+		word-wrap: break-word;
 	}
 
 }
@@ -285,7 +291,7 @@ a{
     text-decoration: none;
     border-radius: 2px;
     cursor: pointer;
-    border: 1px solid rgb(225,225,225);
+    border: 1px solid rgb(205,205,205);
 }
 
 .btn-split li{
@@ -321,11 +327,11 @@ a{
 }
 
 .btn-split-active{
-	background: rgb(230,230,230);
+	background: rgb(205,205,205);
 }
 
 .btn:hover{
-	background: rgb(230,230,230);
+	background: rgb(205,205,205);
 }
 
 .btn.btn-alpha:hover{
@@ -340,7 +346,7 @@ a{
 .btn-success:hover,.btn-error:hover,.btn-warning:hover,.btn-light:hover{
 	color: rgb(30,30,30);
 	background: rgba(255,255,255,0.1);
-	border: 1px solid rgb(225,225,225);
+	border: 1px solid rgb(205,205,205);
 }
 
 .btn-success{
@@ -516,13 +522,13 @@ a{
 	border:0;
 }
 
-.tidy-form legend {
+legend {
 	display:block;
 	width:100%;
 	padding:.3em 0;
 	margin-bottom:.3em;
 	color:#333;
-	border-bottom:1px solid #e5e5e5;
+	border-bottom:1px solid rgb(209,209,209);
 }
 
 .tidy-form-stacked input[type=text],.tidy-form-stacked input[type=password],.tidy-form-stacked input[type=email],.tidy-form-stacked input[type=url],.tidy-form-stacked input[type=date],.tidy-form-stacked input[type=month],.tidy-form-stacked input[type=time],.tidy-form-stacked input[type=datetime],.tidy-form-stacked input[type=datetime-local],.tidy-form-stacked input[type=week],.tidy-form-stacked input[type=number],.tidy-form-stacked input[type=search],.tidy-form-stacked input[type=tel],.tidy-form-stacked input[type=color],.tidy-form-stacked input[type=file],.tidy-form-stacked select,.tidy-form-stacked label,.tidy-form-stacked textarea {
@@ -734,12 +740,34 @@ table.tidy-table td {
 
 .tidy-menu{
 	display: table;
+	width: 100%;
+	background: rgb(252,252,252);
+	border-bottom: 1px solid rgb(236,236,236);
 }
 
 .tidy-menu ul{
+	width: 80%;
 	display: table-row;
 }
 
 .tidy-menu ul li{
 	display: table-cell;
+	padding: 10px;
+	width: auto;
+	text-align: center;
+}
+
+.tidy-menu ul li:first-child{
+	background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png) no-repeat center center;
+	background-size:20px;
+}
+
+.tidy-menu ul li:first-child:hover{
+	background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png) no-repeat center center;
+	background-size:20px;
+}
+
+.tidy-menu ul li:hover{
+	cursor: pointer;
+	background: rgb(239,239,239);
 }
