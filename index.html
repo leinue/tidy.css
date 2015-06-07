@@ -70,10 +70,10 @@
 		</div>
 	</div>
 	<div class="tidy-g">
-		<div style="padding:10px" class="tidy-u-1 tidy-visual">
+		<div style="padding:10px;background:rgb(205,205,205)" class="tidy-u-1 tidy-visual">
 			<a href="" class="btn">使用a标签的普通按钮</a>
 			<button class="btn">使用button标签的普通按钮</button>
-			<input class="btn" type="button" value="input标签">
+			<input class="btn btn-alpha" type="button" value="input标签(hover透明)">
 			<a href="" class="btn btn-success">成功按钮</a>
 			<a href="" class="btn btn-error">失败按钮</a>
 			<a href="" class="btn btn-warning">警告按钮</a>
@@ -100,28 +100,24 @@
 					</ul>
 				</div>
 			</div>
+			<div class="tidy-g">
+				<div class="tidy-u-1-2">
+					<form class="tidy-form">
+					    <fieldset>
+					        <legend>A compact inline form</legend>
+					        <input type="email" placeholder="Email">
+					        <input type="password" placeholder="Password">
+					        <label for="remember">
+					            <input id="remember" type="checkbox"> Remember me
+					        </label>
+					        <button type="submit" class="btn">Sign in</button>
+					    </fieldset>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('.btn-split li').click(function(){
-			var _this=$(this);
-			var isAllowMultiselect=_this.parent().hasClass('allow-multiselect');
-			var _thisBtn=_this.find('a.btn');
-			var _thisBtnIndex=_this.index(0);
-			var _thisActive=_this.parent().find('li a.btn.btn-split-active');
-			var _thisActiveIndex=_thisActive.parent().index(0);
-			if(!isAllowMultiselect){
-				_thisActive.removeClass('btn-split-active');
-			}
-			if(_thisBtnIndex!=_thisActiveIndex || _thisActiveIndex==-1){
-				_thisBtn.addClass('btn-split-active');
-			}
-			return false;
-		});
-	});
-
-</script>
+<script type="text/javascript" src="js/tidy.js"></script>
 </html>
