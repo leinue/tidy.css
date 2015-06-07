@@ -8,6 +8,10 @@
 			var _thisActiveIndex=_thisActive.parent().index(0);
 			if(!isAllowMultiselect){
 				_thisActive.removeClass('btn-split-active');
+			}else{
+				if(_this.find('a').hasClass('btn-split-active')){
+					_this.find('a').removeClass('btn-split-active');
+				}
 			}
 			if(_thisBtnIndex!=_thisActiveIndex || _thisActiveIndex==-1){
 				_thisBtn.addClass('btn-split-active');
@@ -15,4 +19,3 @@
 			return false;
 		});
 	});
-	
