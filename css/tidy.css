@@ -386,22 +386,22 @@ a{
 	font-size: 125%;
 }
 
-.tidy-form input[type=text],
-.tidy-form input[type=password],
-.tidy-form input[type=email],
-.tidy-form input[type=url],
-.tidy-form input[type=date],
-.tidy-form input[type=month],
-.tidy-form input[type=time],
-.tidy-form input[type=datetime],
-.tidy-form input[type=datetime-local],
-.tidy-form input[type=week],
-.tidy-form input[type=number],
-.tidy-form input[type=search],
-.tidy-form input[type=tel],
-.tidy-form input[type=color],
-.tidy-form select,
-.tidy-form textarea {
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=date],
+input[type=month],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=week],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=color],
+select,
+textarea {
 	padding:.5em .6em;
 	display:inline-block;
 	border:1px solid #ccc;
@@ -412,7 +412,7 @@ a{
 	box-sizing:border-box;
 }
 
-.tidy-form input:not([type]) {
+input:not([type]) {
 	padding:.5em .6em;
 	display:inline-block;
 	border:1px solid #ccc;
@@ -422,102 +422,102 @@ a{
 	box-sizing:border-box;
 }
 
-.tidy-form input[type=color] {
+input[type=color] {
 	padding:.2em .5em;
 }
 
-.tidy-form input[type=text]:focus,
-.tidy-form input[type=password]:focus,
-.tidy-form input[type=email]:focus,
-.tidy-form input[type=url]:focus,
-.tidy-form input[type=date]:focus,
-.tidy-form input[type=month]:focus,
-.tidy-form input[type=time]:focus,
-.tidy-form input[type=datetime]:focus,
-.tidy-form input[type=datetime-local]:focus,
-.tidy-form input[type=week]:focus,
-.tidy-form input[type=number]:focus,
-.tidy-form input[type=search]:focus,
-.tidy-form input[type=tel]:focus,
-.tidy-form input[type=color]:focus,
-.tidy-form select:focus,.tidy-form textarea:focus {
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=week]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=color]:focus,
+select:focus,textarea:focus {
 	outline:0;
 	border-color:#129FEA;
 }
 
-.tidy-form input:not([type]):focus {
+input:not([type]):focus {
 	outline:0;
 	border-color:#129FEA;
 }
 
-.tidy-form input[type=file]:focus,
-.tidy-form input[type=radio]:focus,
-.tidy-form input[type=checkbox]:focus {
+input[type=file]:focus,
+input[type=radio]:focus,
+input[type=checkbox]:focus {
 	outline:thin solid #129FEA;
 	outline:1px auto #129FEA;
 }
 
-.tidy-form .tidy-checkbox,.tidy-form .tidy-radio {
+.tidy-checkbox,.tidy-radio {
 	margin:.5em 0;
 	display:block;
 }
 
-.tidy-form input[type=text][disabled],
-.tidy-form input[type=password][disabled],
-.tidy-form input[type=email][disabled],
-.tidy-form input[type=url][disabled],
-.tidy-form input[type=date][disabled],
-.tidy-form input[type=month][disabled],
-.tidy-form input[type=time][disabled],
-.tidy-form input[type=datetime][disabled],
-.tidy-form input[type=datetime-local][disabled],
-.tidy-form input[type=week][disabled],
-.tidy-form input[type=number][disabled],
-.tidy-form input[type=search][disabled],
-.tidy-form input[type=tel][disabled],
-.tidy-form input[type=color][disabled],
-.tidy-form select[disabled],.tidy-form textarea[disabled] {
+input[type=text][disabled],
+input[type=password][disabled],
+input[type=email][disabled],
+input[type=url][disabled],
+input[type=date][disabled],
+input[type=month][disabled],
+input[type=time][disabled],
+input[type=datetime][disabled],
+input[type=datetime-local][disabled],
+input[type=week][disabled],
+input[type=number][disabled],
+input[type=search][disabled],
+input[type=tel][disabled],
+input[type=color][disabled],
+select[disabled],textarea[disabled] {
 	cursor:not-allowed;
 	background-color:#eaeded;
 	color:#cad2d3;
 }
 
-.tidy-form input:not([type])[disabled] {
+input:not([type])[disabled] {
 	cursor:not-allowed;
 	background-color:#eaeded;
 	color:#cad2d3;
 }
 
-.tidy-form input[readonly],.tidy-form select[readonly],.tidy-form textarea[readonly] {
+input[readonly],select[readonly],textarea[readonly] {
 	background-color:#eee;
 	color:#777;
 	border-color:#ccc;
 }
 
-.tidy-form input:focus:invalid,.tidy-form textarea:focus:invalid,.tidy-form select:focus:invalid {
+input:focus:invalid,textarea:focus:invalid,select:focus:invalid {
 	color:#b94a48;
 	border-color:#e9322d;
 }
 
-.tidy-form input[type=file]:focus:invalid:focus,.tidy-form input[type=radio]:focus:invalid:focus,.tidy-form input[type=checkbox]:focus:invalid:focus {
+input[type=file]:focus:invalid:focus,input[type=radio]:focus:invalid:focus,input[type=checkbox]:focus:invalid:focus {
 	outline-color:#e9322d;
 }
 
-.tidy-form select {
+select {
 	height:2.25em;
 	border:1px solid #ccc;
 	background-color:#fff;
 }
 
-.tidy-form select[multiple] {
+select[multiple] {
 	height:auto;
 }
 
-.tidy-form label {
+label {
 	margin:.5em 0 .2em;
 }
 
-.tidy-form fieldset {
+fieldset {
 	margin:0;
 	padding:.35em 0 .75em;
 	border:0;
@@ -569,16 +569,16 @@ legend {
 	margin:1.5em 0 0 11em;
 }
 
-.tidy-form input.tidy-input-rounded,.tidy-form .tidy-input-rounded {
+input.tidy-input-rounded,.tidy-input-rounded {
 	border-radius:2em;
 	padding:.5em 1em;
 }
 
-.tidy-form .tidy-group fieldset {
+.tidy-group fieldset {
 	margin-bottom:10px;
 }
 
-.tidy-form .tidy-group input,.tidy-form .tidy-group textarea {
+.tidy-group input,.tidy-group textarea {
 	display:block;
 	padding:10px;
 	margin:0 0 -1px;
@@ -587,53 +587,53 @@ legend {
 	top:-1px;
 }
 
-.tidy-form .tidy-group input:focus,.tidy-form .tidy-group textarea:focus {
+.tidy-group input:focus,.tidy-group textarea:focus {
 	z-index:3;
 }
 
-.tidy-form .tidy-group input:first-child,.tidy-form .tidy-group textarea:first-child {
+.tidy-group input:first-child,.tidy-group textarea:first-child {
 	top:1px;
 	border-radius:4px 4px 0 0;
 	margin:0;
 }
 
-.tidy-form .tidy-group input:first-child:last-child,.tidy-form .tidy-group textarea:first-child:last-child {
+.tidy-group input:first-child:last-child,.tidy-group textarea:first-child:last-child {
 	top:1px;
 	border-radius:4px;
 	margin:0;
 }
 
-.tidy-form .tidy-group input:last-child,.tidy-form .tidy-group textarea:last-child {
+.tidy-group input:last-child,.tidy-group textarea:last-child {
 	top:-2px;
 	border-radius:0 0 4px 4px;
 	margin:0;
 }
 
-.tidy-form .tidy-group button {
+.tidy-group button {
 	margin:.35em 0;
 }
 
-.tidy-form .tidy-input-1 {
+.tidy-input-1 {
 	width:100%;
 }
 
-.tidy-form .tidy-input-2-3 {
+.tidy-input-2-3 {
 	width:66%;
 }
 
-.tidy-form .tidy-input-1-2 {
+.tidy-input-1-2 {
 	width:50%;
 }
 
-.tidy-form .tidy-input-1-3 {
+.tidy-input-1-3 {
 	width:33%;
 }
 
-.tidy-form .tidy-input-1-4 {
+.tidy-input-1-4 {
 	width:25%;
 }
 
-.tidy-form .tidy-help-inline,.tidy-form-message-inline {
+.tidy-help-inline,.tidy-form-message-inline {
 	display:inline-block;
 	padding-left:.3em;
 	color:#666;
@@ -648,26 +648,26 @@ legend {
 }
 
 @media only screen and (max-width :480px) {
-	.tidy-form button[type=submit] {
+	button[type=submit] {
 		margin:.7em 0 0;
 	}
 }
 
-.tidy-form input:not([type]),
-.tidy-form input[type=text],
-.tidy-form input[type=password],
-.tidy-form input[type=email],
-.tidy-form input[type=url],
-.tidy-form input[type=date],
-.tidy-form input[type=month],
-.tidy-form input[type=time],
-.tidy-form input[type=datetime],
-.tidy-form input[type=datetime-local],
-.tidy-form input[type=week],
-.tidy-form input[type=number],
-.tidy-form input[type=search],
-.tidy-form input[type=tel],
-.tidy-form input[type=color],.tidy-form label {
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=date],
+input[type=month],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=week],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=color],label {
 	margin-bottom:.3em;
 	display:block;
 }
@@ -700,7 +700,7 @@ legend {
 	margin:1.5em 0 0;
 }
 
-.tidy-form .tidy-help-inline,.tidy-form-message-inline,.tidy-form-message {
+.tidy-help-inline,.tidy-form-message-inline,.tidy-form-message {
 	display:block;
 	font-size:.75em;
 	padding:.2em 0 .8em;
@@ -708,7 +708,7 @@ legend {
 
 table.tidy-table {
 	font-family: verdana,arial,sans-serif;
-	font-size:11px;
+	font-size:.875em;
 	color:#333333;
 	border-width: 1px;
 	border-color: #a9c6c9;
@@ -791,3 +791,65 @@ table.tidy-table td {
 	color: rgb(119,119,119);
 }
 
+.thumb,.thubmb-rounded{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	padding: 4px;
+	line-height: 1.42857;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.thumb-rounded{
+	border-radius: 6px;
+}
+
+.thumb-circle{
+	border-radius: 50%;
+}
+
+.list-group a{
+	display: block;
+	border-bottom: none;
+	border-radius: 0px;
+}
+
+.list-group a:last-child{
+	border-bottom:1px solid rgb(205,205,205);
+}
+
+.pagination{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: table;
+	float: right;
+}
+
+.btn.pagination-active{
+	cursor: default;
+	border:none;
+	background: rgba(255,255,255,0);
+}
+
+.pagination ul{
+	display: table-row;
+}
+
+.pagination ul li{
+	display: table-cell;
+	padding-right: 4px;
+	border:none!important;
+}
+
+.pagination ul li:last-child{
+	padding-right: 0px;
+}
+
+.pagination ul li input[type="number"]{
+	margin-bottom: -0.9em;
+	height: 33px;
+	width: 60px;
+}
