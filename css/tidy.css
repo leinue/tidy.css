@@ -386,6 +386,10 @@ a{
 	font-size: 125%;
 }
 
+.tidy-form input{
+	display: inline-block!important;
+}
+
 input[type=text],
 input[type=password],
 input[type=email],
