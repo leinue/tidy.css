@@ -140,6 +140,17 @@
 		if(!isNaN(htmlInA)){
 			removeActive(this);
 			tagAInThis.addClass('pagination-active');
+			if($(this).index()==8){
+				var lastPage=getLastPage(this);
+				var currentPage=getCurrentPage(this);
+				towhichPage(this,lastPage,currentPage);
+			}else{
+				if($(this).index()==2){
+					var start=$(this).find('a').html();
+					reDrawPage(this,start-3);
+					setThisPageActive(this,start);
+				}
+			}
 		}else{
 			switch(htmlInA){
 				case 'home':
