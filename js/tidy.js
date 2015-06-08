@@ -52,7 +52,7 @@
 			var thisType=thisID.split('-')[1];
 			var which2Display='page-'+thisType;
 			var _thisSecondLevel=$('.tidy-menu ul li #'+which2Display);
-			_thisSecondLevel.fadeIn(100);
+			_thisSecondLevel.fadeIn(10);
 			_thisSecondLevel.css({
 				'width':this_.width()+20
 			});

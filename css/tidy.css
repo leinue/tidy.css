@@ -386,7 +386,12 @@ a{
 	font-size: 125%;
 }
 
-.tidy-form input{
+.tidy-form input,
+.tidy-form select,
+.tidy-form textarea,
+.dity-form a,
+.tidy-form button,
+.tidy-form label{
 	display: inline-block!important;
 }
 
@@ -537,12 +542,12 @@ legend {
 }
 
 .tidy-form-stacked input[type=text],.tidy-form-stacked input[type=password],.tidy-form-stacked input[type=email],.tidy-form-stacked input[type=url],.tidy-form-stacked input[type=date],.tidy-form-stacked input[type=month],.tidy-form-stacked input[type=time],.tidy-form-stacked input[type=datetime],.tidy-form-stacked input[type=datetime-local],.tidy-form-stacked input[type=week],.tidy-form-stacked input[type=number],.tidy-form-stacked input[type=search],.tidy-form-stacked input[type=tel],.tidy-form-stacked input[type=color],.tidy-form-stacked input[type=file],.tidy-form-stacked select,.tidy-form-stacked label,.tidy-form-stacked textarea {
-	display:block;
+	display:block!important;
 	margin:.25em 0;
 }
 
 .tidy-form-stacked input:not([type]) {
-	display:block;
+	display:block!important;
 	margin:.25em 0;
 }
 
