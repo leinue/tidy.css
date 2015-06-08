@@ -12,12 +12,18 @@
 <body>
 	<div class="tidy-menu">
 		<ul>
-			<li></li>
-			<li>首页</li>
+			<li class="header-icon"></li>
+			<li class="tidy-menu-active">首页</li>
 			<li>下载</li>
 			<li>介绍</li>
 			<li>文档</li>
-			<li>联系</li>
+			<li>演示</li>
+			<li>
+				联系
+				<ul id="page-contact" class="tidy-menu-second-level">
+					<li><a href="">作者博客</a></li>
+				</ul>
+			</li>
 		</ul>
 	</div>
 	<legend>栅格系统</legend>
@@ -219,7 +225,13 @@
 				</tr>
 			</table>
 		</div>
+		<div class="tidy-u-1">
+			
+		</div>
 	</div>
 	<script type="text/javascript" src="js/tidy.js"></script>
+	<script type="text/javascript">
+		setHeaderIcon('https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png');
+	</script>
 </body>
 </html>

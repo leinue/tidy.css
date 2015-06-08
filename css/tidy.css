@@ -728,7 +728,7 @@ table.tidy-table th {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #a9c6c9;
+	border-color: rgb(204,204,204);
 }
 
 table.tidy-table td {
@@ -736,7 +736,7 @@ table.tidy-table td {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #a9c6c9;
+	border-color: rgb(204,204,204);
 }
 
 .tidy-menu{
@@ -758,17 +758,36 @@ table.tidy-table td {
 	text-align: center;
 }
 
-.tidy-menu ul li:first-child{
-	background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png) no-repeat center center;
-	background-size:20px;
-}
-
-.tidy-menu ul li:first-child:hover{
-	background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png) no-repeat center center;
-	background-size:20px;
-}
-
 .tidy-menu ul li:hover{
 	cursor: pointer;
 	background: rgb(239,239,239);
 }
+
+.tidy-menu-active{
+	background: rgb(239,239,239);
+}
+
+.tidy-menu ul li .tidy-menu-second-level{
+	position: absolute;
+	display: none;
+	background: rgb(255,255,255);
+	margin-left: -10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.tidy-menu ul li .tidy-menu-second-level li{
+	display: block;
+	margin-left: -40px;
+	color: rgb(119,119,119);
+	border:1px solid rgb(236,236,236);
+}
+
+.tidy-menu ul li .tidy-menu-second-level li:hover{
+	background: rgb(239,239,239);
+}
+
+.tidy-menu ul li a{
+	color: rgb(119,119,119);
+}
+
