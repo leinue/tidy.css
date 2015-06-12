@@ -1,5 +1,5 @@
 html, button, input, select, textarea, .tidy-g [class*="tidy-u"] {
-    font-family: sans-serif;
+    font-family: "微软雅黑","FreeSans","Arimo","Droid Sans","Helvetica","Arial","sans-serif";
     font-weight: 100;
     letter-spacing: 0.01em;
     -ms-text-size-adjust:100%;
@@ -11,7 +11,7 @@ body{
     padding: 0px;
     margin: 0px;
     line-height: 1.6;
-   	background: rgb(241,241,241);
+   	/*background: rgb(241,241,241);*/
     font-family: "微软雅黑","FreeSans","Arimo","Droid Sans","Helvetica","Arial","sans-serif";
 }
 
@@ -44,8 +44,13 @@ ul{
 	transition:all 0.8s ease 0s;
 }
 
+img {
+    border: 0px none;
+}
+
 a{
 	text-decoration: none;
+	color: #3B8BBA;
 }
 
 /*a:hover{
@@ -97,7 +102,7 @@ a{
     vertical-align: top;
     text-rendering: auto;
     word-wrap:break-word;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .tidy-u-1-12,.tidy-u-2-24 {
@@ -275,6 +280,7 @@ a{
 .btn{
 	font-size: 100%;
 	border: none;
+	margin: 2px;
 	display: inline-block;
 	line-height: normal;
 	white-space: nowrap;
@@ -298,6 +304,10 @@ a{
 .btn-split li{
 	display: inline;
 	margin-left: -6px;
+}
+
+.btn-split li a{
+	margin: 0;
 }
 
 .allow-multiselect li{
@@ -755,6 +765,15 @@ table.tidy-table td {
 	border-bottom: 1px solid rgb(236,236,236);
 }
 
+.tidy-menu.fixed{
+	position:fixed;
+	z-index:65535;
+}
+
+.tidy-menu.alpha{
+	opacity:0.9;
+}
+
 .tidy-menu ul{
 	width: 80%;
 	display: table-row;
@@ -786,10 +805,12 @@ table.tidy-table td {
 }
 
 .tidy-menu ul li .tidy-menu-second-level li{
+	opacity: 1!important;
 	display: block;
 	margin-left: -40px;
 	color: rgb(119,119,119);
-	border:1px solid rgb(236,236,236);
+	/*border:1px solid rgb(236,236,236);*/
+	border: 1px solid rgb(238,238,238);
 }
 
 .tidy-menu ul li .tidy-menu-second-level li:hover{
@@ -824,10 +845,32 @@ table.tidy-table td {
 	display: block;
 	border-bottom: none;
 	border-radius: 0px;
+	margin: 0;
 }
 
 .list-group a:last-child{
 	border-bottom:1px solid rgb(205,205,205);
+}
+
+.list-group a h1,
+.list-group a h2,
+.list-group a h3,
+.list-group a h4,
+.list-group a h5,
+.list-group a h6{
+	text-align: left;
+	line-height: 0.5px;
+}
+
+.list-group a p{
+	text-align: left;
+	font-size: 0.9em;
+	white-space: nowrap;
+	color: rgb(120,120,120);
+}
+
+.list-group-a-active{
+	background: rgb(241,241,241);
 }
 
 .pagination{
@@ -861,4 +904,107 @@ table.tidy-table td {
 	margin-bottom: -0.9em;
 	height: 33px;
 	width: 60px;
+}
+
+.is-code-full{
+	text-align: center;
+}
+
+.is-code-full .code {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code {
+    margin-left: auto;
+    margin-right: auto;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.code {
+    margin-left: -1em;
+    margin-right: -1em;
+    padding: 1em;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #EEE;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    overflow-x: auto;
+}
+
+pre, code {
+    font-family: "微软雅黑","FreeSans","Arimo","Droid Sans","Helvetica","Arial","sans-serif";
+    color: #333;
+    background: #FAFAFA none repeat scroll 0% 0%;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+
+pre {
+    overflow: auto;
+    font-family: "微软雅黑","FreeSans","Arimo","Droid Sans","Helvetica","Arial","sans-serif";
+}
+
+.code-wrap-full{
+	border:1px solid #EEE;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.code-wrap code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.code code {
+    font-size: 95%;
+    white-space: pre;
+    word-wrap: normal;
+    padding: 0px;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+pre .attribute, pre .variable, pre .support {
+    color: #757575;
+}
+pre .tag, pre .tag-name, pre .support.tag-name {
+    color: #555;
+}
+
+pre .string, pre .support.value {
+    font-weight: normal;
+    color: #3B8BBA;
+}
+
+.tidy-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+	padding: 1em;
+	border-top: 1px solid rgb(238,238,238);
+	background: rgb(250,250,250);
+}
+
+.footer{
+	text-align: center;
+	line-height: 0.7;
+}
+
+.footer-list{
+	width: 100%;
+	display: table-row;
+}
+
+.footer-list li{
+	display: table-cell;
+	padding: 4px;
 }

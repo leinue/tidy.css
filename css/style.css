@@ -1,0 +1,98 @@
+.hero-tagline {
+    font-size: 220%;
+}
+
+.hero-tagline {
+    font-size: 150%;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0px 0px 1em;
+    color: rgb(130,130,130);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+    color: #4B4B4B;
+}
+
+.hero-title{
+	text-align: center;
+}
+
+.hero-title .hero-logo{
+	font-size: 260%;
+}
+
+.function-btn{
+	text-align: center;
+}
+
+.marketing{
+	border-bottom: 1px solid #EEE;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 2em;
+}
+
+.marketing.noborder{
+	border:none;
+}
+.marketing.nopadding{
+	padding: 0;
+}
+.marketing.nomargin{
+	margin: 0;
+}
+
+.header, .content {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 768px;
+}
+
+.marketing .content {
+    margin-bottom: 0px;
+}
+
+.marketing-header {
+    font-size: 150%;
+}
+.marketing-header {
+    font-weight: 400;
+}
+.marketing .content p{
+	font-size: .95em;
+}
+
+.doc-capation{
+	padding: 2em;
+}
+
+.doc-capation .list-group a{
+	border:none;
+	color: rgb(118,118,118);
+}
+
+.header {
+    font-family: "微软雅黑","Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    max-width: 768px;
+    margin: 0px auto;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #EEE;
+    background: #FFF none repeat scroll 0% 0%;
+    letter-spacing: 0.05em;
+}
+
+.header h1 {
+    font-size: 200%;
+    font-weight: 100;
+    margin: 0px;
+}
