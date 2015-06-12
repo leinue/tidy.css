@@ -222,3 +222,6 @@
 		window.location.href=thisURL;
 		localStorage.currentActiveMenu=$(this).index()+1;
 	});
+
+	var secondMenuActive=$('.tidy-menu-active')[1];
+	$(secondMenuActive).removeClass('tidy-menu-active');

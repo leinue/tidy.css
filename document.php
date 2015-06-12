@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="tidy-u-3-4">
-				<div class="marketing noborder">
+				<div class="marketing noborder doc-detail">
 					<div class="header">
 						 <h1>基础入门</h1>
 					</div>
@@ -41,13 +41,14 @@
 			localStorage.currentDocIndex=1;
 			$('.doc-capation .list-group a:nth-child('+localStorage.currentDocIndex+')').addClass('list-group-a-active');
 			document.title="文档 - Tidy";
-			
 			$('.doc-capation .list-group a').click(function(){
 				localStorage.currentDocIndex=$(this).index()+1;
 				$('.list-group-a-active').removeClass('list-group-a-active');
 				$(this).addClass('list-group-a-active');
-				console.log($(this).html());
 				document.title=$(this).html()+' - 文档 - Tidy';
+				$('.doc-detail').html('');
+				var docToBeLoaded=$(this).attr('id').split('-');
+				$('.doc-detail').load("doc/"+docToBeLoaded[1]+'.php');
 				return false;
 			});
 		});

@@ -30,7 +30,7 @@
 					<li><a target="_blank">定制</a></li>
 				</ul>
 			</li>
-			<li><a href="javascript.php" target="_blank">javascipt</a></li>
+			<li><a href="javascript.php">javascipt</a></li>
 			<li><a href="view.php">演示</a></li>
 			<li><a href="about.php">关于</a></li>
 			<li><a href="http://ivydom.com" target="_blank">联系</a></li>
