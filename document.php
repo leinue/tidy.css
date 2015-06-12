@@ -39,8 +39,11 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			localStorage.currentDocIndex=1;
+			
 			$('.doc-capation .list-group a:nth-child('+localStorage.currentDocIndex+')').addClass('list-group-a-active');
+
 			document.title="文档 - Tidy";
+			
 			$('.doc-capation .list-group a').click(function(){
 				localStorage.currentDocIndex=$(this).index()+1;
 				$('.list-group-a-active').removeClass('list-group-a-active');
@@ -51,6 +54,8 @@
 				$('.doc-detail').load("doc/"+docToBeLoaded[1]+'.php');
 				return false;
 			});
+			
+			$('.doc-capation').css('height',$(window).height()-$('footer').height());
 		});
 	</script>
 

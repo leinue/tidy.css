@@ -15,8 +15,8 @@
 					</div>
 				</div>
 				<div class="function-btn">
-					<a href="" class="btn btn-success btn-xl">下载Tidy</a>
-					<a href="" class="btn btn-light btn-xl">开始学习</a>
+					<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
+					<a href="document.php" class="btn btn-light btn-xl start-btn">开始学习</a>
 					<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn btn-xl">Github</a>
 				</div>
 				<div class="marketing">
@@ -60,7 +60,7 @@
 							<div class="content">
 								<h3 class="marketing-header">轻松创建响应式网站</h3>
 								<p>您只需要三行代码即可完成响应式布局框架的编写，我们坚持写的更少，做的更多，我们给您提供了最简单的解决方案，并且大大降低了您的学习成本。我们发现，在使用Bootstrap这类框架时，学习成本远远超过了开发成本，而我们的Tidy学习起来却是极其简单的。</p>
-								<a href="" class="btn">查看演示</a>
+								<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn">查看演示</a>
 							</div>
 						</div>
 					</div>
@@ -71,7 +71,7 @@
 							<div class="content">
 								<h3 class="marketing-header">代码高度定制化</h3>
 								<p>我们不仅保证了代码的简单易用性，还保证了代码的模块化。不管是input，form，pagination，还是table，list都可以单独抽出来使用。当然您的自定义样式同样会在您自己的网页中得到展现。</p>
-								<a href="" class="btn">开始学习</a>
+								<a href="document.php" class="btn start-btn">开始学习</a>
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@
 							<div class="content">
 								<h3 class="marketing-header">完全开源</h3>
 								<p>Tidy是完全开源的，代码全部保存在GitHub上。您可以在GitHub中fork我们的项目，帮助我们开发，维护，修正。</p>
-								<a href="" class="btn">查看GitHub</a>
+								<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn">查看GitHub</a>
 							</div>
 						</div>
 					</div>
@@ -114,8 +114,8 @@
 						<div class="content">
 							<div class="function-btn">
 							<h3 class="marketing-header">所以，你现在准备好了吗？</h3>
-								<a href="" class="btn btn-success btn-xl">下载Tidy</a>
-								<a href="" class="btn btn-light btn-xl">开始学习</a>
+								<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
+								<a href="document.php" class="btn btn-light btn-xl start-btn">开始学习</a>
 								<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn btn-xl">Github</a>
 							</div>
 						</div>
@@ -376,6 +376,11 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			document.title="首页 - Tidy";
+
+			$('.start-btn').click(function(){
+				localStorage.currentActiveMenu='3';
+				window.location=$(this).attr('href');
+			});
 		});
 	</script>
 
