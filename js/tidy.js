@@ -138,7 +138,7 @@
 		if($(this).find('input').length!=0){return;}
 		var tagAInThis=$(this).find('a');
 		var htmlInA=tagAInThis.attr('id').split('_')[1];
-		if(!isNaN(htmlInA)){
+		if(!isNaN(htmlInA) && htmlInA>=1 && $(this).find('a').hasClass('.pagination-active')!=true){
 			removeActive(this);
 			tagAInThis.addClass('pagination-active');
 			if($(this).index()==8){
@@ -226,6 +226,12 @@
 	var secondMenuActive=$('.tidy-menu-active')[1];
 	$(secondMenuActive).removeClass('tidy-menu-active');
 
-	if($('.main-section').height()<$(window).height()-$('footer').height()){
-		$('.main-section').css('height',$(window).height()-$('footer').height());
+	function setFooterPosition(prevHeight){
+		if($('.main-section').height()<$(window).height()-$('footer').height()){
+			$('.main-section').css('height',prevHeight);
+		}else{
+			$('.main-section').css('height','auto');
+		}
 	}
+
+	setFooterPosition($(window).height()-$('footer').height());

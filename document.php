@@ -55,7 +55,9 @@
 				document.title=$(this).html()+' - 文档 - Tidy';
 				$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
 				var docToBeLoaded=$(this).attr('id').split('-');
-				$('.doc-detail').load("doc/"+docToBeLoaded[1]+'.php');
+				$('.doc-detail').load("doc/"+docToBeLoaded[1]+'.php',function(){
+					setFooterPosition($('.marketing').height()+100);
+				});
 				document.location.hash='#'+docToBeLoaded[1]+'#'+localStorage.currentDocIndex;
 				return false;
 			});
@@ -73,7 +75,13 @@
 					setDocIndex();
 					document.title=$('.list-group-a-active').html()+' - 文档 - Tidy';
 					$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
-					$('.doc-detail').load("doc/"+thisPart+'.php');
+					$('.doc-detail').load("doc/"+thisPart+'.php',function(){
+						if($('.marketing').height()>$(window).height()-$('footer').height()){
+							setFooterPosition($('.marketing').height()+100);							
+						}else{
+							setFooterPosition($(window).height()-$('footer').height());
+						}
+					});
 				}
 			}
 		});
