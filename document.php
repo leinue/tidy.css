@@ -11,7 +11,7 @@
 						<a href="" id="doc-input" class="btn">输入</a>
 						<a href="" id="doc-table" class="btn">表格</a>
 						<a href="" id="doc-menu" class="btn">菜单</a>
-						<a href="" id="doc-pagnitaion" class="btn">分页</a>
+						<a href="" id="doc-pagniation" class="btn">分页</a>
 						<a href="" id="doc-img" class="btn">图片</a>
 						<a href="" id="doc-list" class="btn">列表</a>
 						<a href="" id="doc-custom" class="btn">定制</a>

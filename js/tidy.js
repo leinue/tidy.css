@@ -45,6 +45,7 @@
 
 	/*二级菜单开始*/
 	$('.tidy-menu ul li').hover(function(){
+		console.log('dsds');
 		var this_=$(this);
 		var thisNext=this_.find('.tidy-menu-second-level');
 		if(thisNext.length!=0){
@@ -223,8 +224,7 @@
 		localStorage.currentActiveMenu=$(this).index()+1;
 	});
 
-	var secondMenuActive=$('.tidy-menu-active')[1];
-	$(secondMenuActive).removeClass('tidy-menu-active');
+	$('.tidy-menu ul li ul .tidy-menu-active').attr('class','');
 
 	function setFooterPosition(prevHeight){
 		if($('.main-section').height()<$(window).height()-$('footer').height()){
