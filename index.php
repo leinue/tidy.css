@@ -113,7 +113,7 @@
 					<div class="marketing">
 						<div class="content">
 							<div class="function-btn">
-							<h3 class="marketing-header">所以，你现在准备好了吗？</h3>
+							<h3 class="marketing-header">所以，您现在准备好了吗？</h3>
 								<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
 								<a href="document.php" class="btn btn-light btn-xl start-btn">开始学习</a>
 								<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn btn-xl">Github</a>
@@ -123,37 +123,6 @@
 				</div>	
 			</div>
 		</div>		
-		<legend>表单/按钮及其它input</legend>
-		<div class="tidy-g">
-			<div class="tidy-u-1">
-			</div>
-			<div style="background:rgb(255,255,255)" class="tidy-u-1">
-				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb">
-				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb-rounded">
-				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb-circle">
-			</div>
-			<div class="tidy-u-1">
-				<div class="pagniation">
-					<div class="pagination">
-						<ul whole-page="233">
-							<li></li>
-							<li><a class="btn" id="page_home" href="javascript:void(0)">首</a></li>
-							<li><a class="btn pagination-active" id="page_1" href="javascript:void(0)">1</a></li>
-							<li><a class="btn" id="page_2" href="javascript:void(0)">2</a></li>
-							<li><a class="btn" id="page_3" href="javascript:void(0)">3</a></li>
-							<li><a class="btn" id="page_4" href="javascript:void(0)">4</a></li>
-							<li><a class="btn" id="page_5" href="javascript:void(0)">5</a></li>
-							<li><a class="btn" id="page_6" href="javascript:void(0)">6</a></li>
-							<li><a class="btn" id="page_7" href="javascript:void(0)">7</a></li>
-							<li><a class="btn" id="page_next" href="javascript:void(0)">下</a></li>
-							<li><a class="btn" id="page_last" href="javascript:void(0)">末</a></li>
-							<li><input class="the_input small" id="page_page" type="number"></li>
-							<li><a class="btn" id="page_submit" href="javascript:void(0)">确定</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 	</section>
 
 	<script type="text/javascript">

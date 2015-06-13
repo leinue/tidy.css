@@ -45,7 +45,6 @@
 
 	/*二级菜单开始*/
 	$('.tidy-menu ul li').hover(function(){
-		console.log('dsds');
 		var this_=$(this);
 		var thisNext=this_.find('.tidy-menu-second-level');
 		if(thisNext.length!=0){
