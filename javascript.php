@@ -6,6 +6,7 @@
 					<div class="content">
 						<div class="header">
 							<h1>javascript</h1>
+							<p>这里提供可能会在开发过程中使用到的javascript函数和jQuery提示</p>
 						</div>
 						<div style="padding:1em;" class="tidy-u-1">
 							<div class="list-group">
