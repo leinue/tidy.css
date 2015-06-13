@@ -60,6 +60,62 @@
 	    <div class="tidy-u-1-3 tidy-visual"> tidy-u-1-3 tidy-visual </div>
 	    <div class="tidy-u-1-3 tidy-visual"> tidy-u-1-3 tidy-visual </div>
 	</div>
+	<p>当然也可以这样</p>
+	<div style="border-top:1px solid rgb(229,229,229);" class="tidy-g white-bg">
+		<div class="tidy-u-1 tidy-u-md-1-2 tidy-u-lg-1-4 tidy-visual">
+			tidy-u-1 tidy-u-md-1-2 tidy-u-lg-1-4
+		</div>
+		<div class="tidy-u-1-1 tidy-u-md-1-2 tidy-u-lg-1-4 tidy-visual">
+			tidy-u-1-1 tidy-u-md-1-2 tidy-u-lg-1-4
+		</div>
+		<div class="tidy-u-5-5 tidy-u-md-1-2 tidy-u-lg-1-4 tidy-visual">
+			tidy-u-5-5 tidy-u-md-1-2 tidy-u-lg-1-4
+		</div>
+		<div class="tidy-u-12-12 tidy-u-md-1-2 tidy-u-lg-1-4 tidy-visual">
+			tidy-u-12-12 tidy-u-lg-1-4
+		</div>
+	</div>
+	<div class="tidy-g white-bg">
+		<div class="tidy-u-1-3 tidy-visual">
+			tidy-u-1-3
+		</div>
+		<div class="tidy-u-1-3 tidy-visual">
+			tidy-u-1-3
+		</div>
+		<div class="tidy-u-1-3 tidy-visual">
+			tidy-u-1-3
+		</div>
+	</div>
+	<div class="tidy-g white-bg">
+		<div class="tidy-u-1-4 tidy-visual">
+			tidy-u-1-3
+		</div>
+		<div class="tidy-u-3-4 tidy-visual">
+			tidy-u-2-3
+		</div>
+	</div>
+	<div class="tidy-g white-bg">
+			<div class="tidy-u-4-5 tidy-visual">
+				tidy-u-4-5
+			</div>
+			<div class="tidy-u-1-5 tidy-visual">
+				tidy-u-1-5
+			</div>
+	</div>
+	<div style="border-bottom:1px solid rgb(229,229,229)" class="tidy-g white-bg">
+		<div class="tidy-u-1-12 tidy-visual">
+			tidy-u-1-12
+		</div>
+		<div class="tidy-u-5-12 tidy-visual">
+			tidy-u-5-12
+		</div>
+		<div class="tidy-u-5-12 tidy-visual">
+			tidy-u-5-12
+		</div>
+		<div class="tidy-u-1-12 tidy-visual">
+			tidy-u-1-12
+		</div>
+	</div>
 	<p>祝调试愉快:)</p>
 	<h3 class="marketing-subheader">工作原理</h3>
 	<p>想快速进入开发的用户可以跳过这里:)</p>
@@ -115,6 +171,7 @@
 		</ol>
 	</p>
 	<h3 class="marketing-header">响应式布局示例</h3>
+	<p>您可以拖动浏览器窗口进行测试:)</p>
 	<ol>
 		<li>
 			<p>响应式图片</p>
