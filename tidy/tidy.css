@@ -244,32 +244,6 @@ a{
     	width: 100%;
 	}
 
-	footer .footer{
-		line-height: 1.6em;
-	}
-
-	footer .footer p{
-		margin: 0;
-	}
-
-	.tidy-menu ul{
-		width: 100%;
-		display: table-column;
-	}
-
-	.tidy-menu ul li{
-		border-top: 1px solid rgb(238,238,238);
-	}
-
-	.tidy-menu ul li:first-child{
-		/*display: block!important;*/
-		height: 40px;
-	}
-
-	.tidy-menu-active{
-		display: none!important;
-	}
-
 	.tidy-u-1, .tidy-u-1-1, .tidy-u-1-2, 
 	.tidy-u-1-3, .tidy-u-2-3, .tidy-u-1-4, 
 	.tidy-u-3-4, .tidy-u-1-5, .tidy-u-2-5, 
@@ -288,6 +262,7 @@ a{
 
 /* >=768px tg-u-md-* */
 @media screen and (min-width: 48em){
+
 }
 
 /* >=1024px tg-u-lg-* */

@@ -11,11 +11,11 @@
 				</div>
 				<div class="hero-cta">
 					<div class="is-code-full">
-						<pre class="code code-wrap" data-language="html"><code class="rainbow"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">link</span></span> <span class="support attribute">rel</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">stylesheet</span><span class="string quote">"</span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">http://ivydom.com/tidy/0.1.0/tidy-min.css</span><span class="string quote">"</span><span class="support tag close">&gt;</span></code></pre>
+						<pre class="code code-wrap" data-language="html"><code class="rainbow"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">link</span></span> <span class="support attribute">rel</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">stylesheet</span><span class="string quote">"</span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">http://tidy.ivydom.com/tidy/tidy.css</span><span class="string quote">"</span><span class="support tag close">&gt;</span></code></pre>
 					</div>
 				</div>
 				<div class="function-btn">
-					<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
+					<a href="http://tidy.ivydom.com/tidy/tidy.zip" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
 					<a href="document.php" class="btn btn-light btn-xl start-btn">开始学习</a>
 					<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn btn-xl">Github</a>
 				</div>
@@ -114,7 +114,7 @@
 						<div class="content">
 							<div class="function-btn">
 							<h3 class="marketing-header">所以，您现在准备好了吗？</h3>
-								<a href="http://ivydom.com/tidy/tidy.css" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
+								<a href="http://tidy.ivydom.com/tidy/tidy.zip" target="_blank" class="btn btn-success btn-xl">下载Tidy</a>
 								<a href="document.php" class="btn btn-light btn-xl start-btn">开始学习</a>
 								<a href="https://github.com/leinue/TidyCSS" target="_blank" class="btn btn-xl">Github</a>
 							</div>
