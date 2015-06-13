@@ -66,6 +66,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
 }
 
+.marketing .content legend p{
+	font-weight: 600;
+}
+
+.marketing .content legend p,.marketing .content legend ol li{
+	color: rgb(119,119,119);
+}
+
 .marketing-header {
     font-size: 150%;
 }

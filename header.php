@@ -33,7 +33,7 @@
 			<li><a href="javascript.php">javascipt</a></li>
 			<li><a href="view.php">演示</a></li>
 			<li><a href="about.php">关于</a></li>
-			<li><a href="http://ivydom.com" >联系</a></li>
+			<li><a href="http://ivydom.com">联系</a></li>
 		</ul>
 	</div>
 
