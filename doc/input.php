@@ -72,6 +72,37 @@
 	<pre class="code code-wrap code-wrap-full"><code>&lt;a href="" class="btn"&gt;a标签按钮&lt;/a&gt;
 &lt;button class="btn"&gt;button标签按钮&lt;/button&gt;
 &lt;input class="btn" type="button" value="input标签按钮"&gt;</code></pre>
+	<h3 class="marketing-subheader">分割按钮</h3>
+	<div style="margin-top:10px;" class="tidy-g">
+		<div class="tidy-u-1-3">
+			<ul class="btn-split">
+				<li><a href="" class="btn btn-split">A</a></li>
+				<li><a href="" class="btn btn-split btn-split-active">B</a></li>
+				<li><a href="" class="btn btn-split">C</a></li>
+			</ul>	
+		</div>
+		<div class="tidy-u-1-3">
+			<ul class="btn-split allow-multiselect">
+				<li><a href="" class="btn btn-split btn-split-active">A</a></li>
+				<li><a href="" class="btn btn-split">B</a></li>
+			</ul>
+		</div>
+	</div>
+	<pre class="code code-wrap code-wrap-full"><code>&lt;div style="margin-top:10px;" class="tidy-g"&gt;
+	&lt;div class="tidy-u-1-3"&gt;
+		&lt;ul class="btn-split"&gt;
+			&lt;li&gt;&lt;a href="" class="btn btn-split"&gt;A&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" class="btn btn-split btn-split-active"&gt;B&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" class="btn btn-split"&gt;C&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="tidy-u-1-3"&gt;
+		&lt;ul class="btn-split allow-multiselect"&gt;
+			&lt;li&gt;&lt;a href="" class="btn btn-split btn-split-active"&gt;A&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="" class="btn btn-split"&gt;B&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
 	<h3 class="marketing-header">输入框</h3>
 	<p>除了普通输入框之外,我们还提供了栅格输入框</p>
 	<h3 class="marketing-subheader">基本输入框</h3>

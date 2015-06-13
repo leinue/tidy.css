@@ -74,7 +74,7 @@
 						$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
 						$('.doc-detail').load("doc/"+thisPart+'.php',function(){
 							if($('.marketing').height()>$(window).height()-$('footer').height()){
-								setFooterPosition($('.marketing').height()+100);							
+								setFooterPosition($('.marketing').height()+100);
 							}else{
 								setFooterPosition($(window).height()-$('footer').height());
 							}
@@ -82,6 +82,27 @@
 					}
 				}
 			 };
+
+		var thisURl=window.location.href;
+			if(thisURl.indexOf('#')!=-1){
+				var thisPart=thisURl.split('#');
+				if(thisPart.length>=3){
+					var thisIndex=thisPart[2];
+					thisPart=thisPart[1];
+					$('.list-group-a-active').removeClass('list-group-a-active');
+					localStorage.currentDocIndex=thisIndex;
+					setDocIndex();
+					document.title=$('.list-group-a-active').html()+' - 文档 - Tidy';
+					$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
+					$('.doc-detail').load("doc/"+thisPart+'.php',function(){
+						if($('.marketing').height()>$(window).height()-$('footer').height()){
+							setFooterPosition($('.marketing').height()+100);
+						}else{
+							setFooterPosition($(window).height()-$('footer').height());
+						}
+					});
+				}
+			}
 		});
 	</script>
 
