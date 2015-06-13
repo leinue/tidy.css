@@ -39,8 +39,12 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			localStorage.currentDocIndex=1;
-			
-			$('.doc-capation .list-group a:nth-child('+localStorage.currentDocIndex+')').addClass('list-group-a-active');
+
+			function setDocIndex(){
+				$('.doc-capation .list-group a:nth-child('+localStorage.currentDocIndex+')').addClass('list-group-a-active');
+			}
+
+			setDocIndex();
 
 			document.title="文档 - Tidy";
 			
@@ -52,10 +56,26 @@
 				$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
 				var docToBeLoaded=$(this).attr('id').split('-');
 				$('.doc-detail').load("doc/"+docToBeLoaded[1]+'.php');
+				document.location.hash='#'+docToBeLoaded[1]+'#'+localStorage.currentDocIndex;
 				return false;
 			});
 			
 			$('.doc-capation').css('height',$(window).height()-$('footer').height());
+
+			var thisURl=window.location.href;
+			if(thisURl.indexOf('#')!=-1){
+				var thisPart=thisURl.split('#');
+				if(thisPart.length==3){
+					var thisIndex=thisPart[2];
+					thisPart=thisPart[1];
+					$('.list-group-a-active').removeClass('list-group-a-active');
+					localStorage.currentDocIndex=thisIndex;
+					setDocIndex();
+					document.title=$('.list-group-a-active').html()+' - 文档 - Tidy';
+					$('.doc-detail').html('	<div class="loading-status">正在加载...</div>');
+					$('.doc-detail').load("doc/"+thisPart+'.php');
+				}
+			}
 		});
 	</script>
 

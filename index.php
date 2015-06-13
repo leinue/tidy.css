@@ -273,81 +273,11 @@
 				</div>
 			</div>
 			<div class="tidy-u-1">
-				<table class="tidy-table" style="margin-top:10px;">
-					<tr>
-						<th><input type="checkbox"></th>
-						<th>作者</th>
-						<th>标题</th>
-						<th>分类</th>
-						<th>类型</th>
-						<th>发布日期</th>
-						<th>更改日期</th>
-						<th>点击数</th>
-						<th>操作</th>
-					</tr>
-					<tr>
-						<td><input type="checkbox"></td>
-						<td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1B</td><td>Text 1C</td>
-						<td>
-							<a class="btn" style="display:block">查看</a>
-						</td>
-					</tr>
-					<tr>
-						<td><input type="checkbox"></td>
-						<td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1B</td><td>Text 1C</td>
-						<td>
-							<a class="btn" style="display:block">查看</a>
-						</td>								
-					</tr>
-					<tr>
-						<td><input type="checkbox"></td>
-						<td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1B</td><td>Text 1C</td>
-						<td>
-							<a class="btn" style="display:block">查看</a>
-						</td>								
-					</tr>
-					<tr>
-						<td><input type="checkbox"></td>
-						<td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1B</td><td>Text 1C</td>
-						<td>
-							<a class="btn" style="display:block">查看</a>
-						</td>								
-					</tr>
-					<tr>
-						<td><input type="checkbox"></td>
-						<td>Text 1B</td><td>Text 1C</td><td>Text 1A</td><td>Text 1B</td><td>Text 1C</td><td>Text 1B</td><td>Text 1C</td>
-						<td>
-							<a class="btn" style="display:block">查看</a>
-						</td>								
-					</tr>
-				</table>
 			</div>
 			<div style="background:rgb(255,255,255)" class="tidy-u-1">
 				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb">
 				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb-rounded">
 				<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQzLjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" class="thumb-circle">
-			</div>
-			<div class="tidy-u-1-2">
-				<div class="list-group">
-					<a href="" class="btn">这是列表组</a>
-					<a href="" class="btn">使用类名为list-group的div标签即可</a>
-					<a href="" class="btn">包含a标签,类名为btn</a>
-					<a href="" class="btn">简单易用响应式</a>
-				</div>
-			</div>
-			<div class="tidy-u-1-2">
-				<div class="list-group">
-					<a href="" class="btn">这是列表组</a>
-					<a href="" class="btn">使用类名为list-group的div标签即可</a>
-					<a href="" class="btn">
-						<h3>h p标签自动靠左</h3>
-						<p>段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落</p>
-					</a>
-					<a href="" class="btn">
-						<h3>高度定制化</h3>
-						<p>段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落段落</p>
-					</a>
-				</div>
 			</div>
 			<div class="tidy-u-1">
 				<div class="pagniation">

@@ -226,9 +226,6 @@
 	var secondMenuActive=$('.tidy-menu-active')[1];
 	$(secondMenuActive).removeClass('tidy-menu-active');
 
-	console.log($('.main-section').height());
-	console.log($(window).height()-$('footer').height());
-
 	if($('.main-section').height()<$(window).height()-$('footer').height()){
 		$('.main-section').css('height',$(window).height()-$('footer').height());
 	}
