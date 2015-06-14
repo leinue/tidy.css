@@ -4,15 +4,15 @@
 <head>
 	<meta charset="utf8">
 	<title>Tidy - 响应式CSS3框架</title>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/tidy.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<div class="tidy-menu fixed alpha">
+	<div class="tidy-menu alpha">
 		<ul>
 			<li class="header-icon"></li>
 			<li><a href="index.php">首页</a></li>

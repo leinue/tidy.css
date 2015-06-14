@@ -251,6 +251,11 @@ a{
 	footer .footer p{
 		margin: 0;
 	}
+	
+	.tidy-menu{
+		margin-bottom: 100px!important;
+		position: relative!important;
+	}
 
 	.tidy-menu ul{
 		width: 100%;
@@ -258,6 +263,7 @@ a{
 	}
 
 	.tidy-menu ul li{
+		display: block!important;
 		border-top: 1px solid rgb(238,238,238);
 	}
 
@@ -792,9 +798,20 @@ table.tidy-table td {
 	border-bottom: 1px solid rgb(236,236,236);
 }
 
+.tidy-menu-mini{
+	background: rgb(252,252,252);
+	width: 100%;
+	/*padding: 20px;*/
+}
+
+.tidy-menu-mini:hover{
+	background: rgb(239,239,239);
+	cursor: pointer;
+}
+
 .tidy-menu.fixed{
-	position:fixed;
 	z-index:65535;
+	top: 0;
 }
 
 .tidy-menu.alpha{
@@ -1022,6 +1039,7 @@ pre .string, pre .support.value {
 }
 
 footer{
+	margin-top: 20px;
 	padding: 1em;
 	border-top: 1px solid rgb(238,238,238);
 	background: rgb(250,250,250);
