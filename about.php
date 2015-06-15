@@ -21,8 +21,9 @@
 					<legend>
 						<p>2015-06-15</p>
 						<ol>
-							<li>修正Tidy小屏幕菜单不兼容Safari问题</li>
-							<li>修正safari下页脚错位问题</li>
+							<li>修复Tidy小屏幕菜单不兼容Safari问题</li>
+							<li>修复safari下页脚错位问题</li>
+							<li>修复safari下菜单点击无响应问题</li>
 						</ol>
 					</legend>
 					<legend>

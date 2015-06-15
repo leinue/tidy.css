@@ -217,11 +217,11 @@
 
 	$('.main-section').css('margin-top',-$('.tidy-menu').height()/3+'px');
 
-	// if(localStorage.currentActiveMenu!='undefined'){
-	// 	var activeIndex=localStorage.currentActiveMenu;
-	// 	$('.tidy-menu-active').removeClass('tidy-menu-active');
-	// 	$('.tidy-menu ul li:nth-child('+activeIndex+')').addClass('tidy-menu-active');
-	// }
+	if(localStorage.currentActiveMenu!='undefined'){
+		var activeIndex=localStorage.currentActiveMenu;
+		$('.tidy-menu-active').removeClass('tidy-menu-active');
+		$('.tidy-menu ul li:nth-child('+activeIndex+')').addClass('tidy-menu-active');
+	}
 
 	$('.tidy-menu ul li').click(function(){
 		if($(this).index()!==0){
