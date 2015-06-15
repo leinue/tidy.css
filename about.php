@@ -19,6 +19,13 @@
 				<div class="content">
 					<h2 class="marketing-header">Tidy开发记录</h2>
 					<legend>
+						<p>2015-06-15</p>
+						<ol>
+							<li>修正Tidy小屏幕菜单不兼容Safari问题</li>
+							<li>修正safari下页脚错位问题</li>
+						</ol>
+					</legend>
+					<legend>
 						<p>2015-06-13</p>
 						<ol>
 							<li>Tidy教程文档基本写完</li>

@@ -131,7 +131,7 @@
 
 			$('.start-btn').click(function(){
 				localStorage.currentActiveMenu='3';
-				window.location=$(this).attr('href');
+				window.location.href=$(this).attr('href');
 			});
 		});
 	</script>

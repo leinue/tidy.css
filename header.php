@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div class="tidy-menu alpha">
+	<div class="tidy-menu fixed alpha">
 		<ul>
 			<li class="header-icon"></li>
 			<li><a href="index.php">首页</a></li>
