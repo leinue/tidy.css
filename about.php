@@ -25,6 +25,7 @@
 							<li>修复safari下页脚错位问题</li>
 							<li>修复safari下菜单点击无响应问题</li>
 							<li>修复safari下菜单图标显示错误问题</li>
+							<li>修复菜单浮动时在不同屏幕下产生的高度bug</li>
 						</ol>
 					</legend>
 					<legend>
@@ -37,7 +38,7 @@
 					<legend>
 						<p>2015-06-12</p>
 						<ol>
-							<li>开始Tidy教程文档的书写</li>
+							<li>开始Tidy教程文档的编写</li>
 						</ol>
 					</legend>
 					<legend>
