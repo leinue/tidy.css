@@ -8,7 +8,7 @@
 	<p>菜单使用.tidy-menu类,html代码使用ul</p>
 	<h3 class="marketing-subheader">基础菜单</h3>
 	<p>基础菜单包括了基本的导航功能</p>
-	<div class="tidy-menu">
+	<div style="position:relative!important;" class="tidy-menu">
 		<ul>
 			<li class="header-icon">ICON</li>
 			<li><a href="index.php">首页</a></li>
@@ -67,6 +67,10 @@
 	</div>
 	<h3 class="marketing-subheader">菜单图标</h3>
 	<p>我们建议使用Tidy中的函数来设置菜单图标</p>
+	<p>如果使用此方法来设置Tidy菜单中的图标,则需要将ul li的first-child类名设置为.header-icon</p>
+	<p><em>菜单图标的位置只能为第一个</em></p>
+	<pre class="code code-wrap code-wrap-full"><code>&lt;li class="header-icon"&gt;&lt;/li&gt;</code></pre>
+	<p>您不需在li中写任何内容,直接调用setHeaderIcon函数即可</p>
 	<div style="padding-top:1em;" class="tidy-u-1">
 		<div class="list-group">
 			<a href="javascript:void(0)" class="btn">

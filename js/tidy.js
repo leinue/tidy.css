@@ -1,5 +1,3 @@
-	alert('dsdsd');
-
 	/*分割按钮开始*/
 	$('.btn-split li').click(function(){
 		var _this=$(this);
@@ -21,17 +19,17 @@
 		return false;
 	});
 
-	// $('.tidy-menu ul li:nth-child(1)').hover(function(){
-	// 	$(this).css({
-	// 		'background':'url('+url+') no-repeat center center',
-	// 		'background-size':hoverSize+'px'
-	// 	});
-	// },function(){
-	// 	$(this).css({
-	// 		'background':'url('+url+') no-repeat center center',
-	// 		'background-size':normalSize+'px'
-	// 	});
-	// });
+	$('.tidy-menu ul li:nth-child(1)').hover(function(){
+		$(this).css({
+			'background':localStorage.headerIconStyle,
+			'background-size':localStorage.hoverSize+'px'
+		});
+	},function(){
+		$(this).css({
+			'background':localStorage.headerIconStyle,
+			'background-size':localStorage.normalSize+'px'
+		});
+	});
 
 	/*设置图标*/
 	function setHeaderIcon(url,normalSize,hoverSize){
@@ -40,6 +38,8 @@
 		$('.tidy-menu ul li.header-icon').css({
 	 		'background':'url('+url+') no-repeat scroll center center / '+normalSize+'px auto'
 	 	});
+	 	localStorage.hoverSize=hoverSize;
+	 	localStorage.normalSize=normalSize;
 	 	localStorage.headerIconStyle='url('+url+') no-repeat scroll center center / '+normalSize+'px auto';
 	}
 
@@ -216,11 +216,13 @@
 				heightComparison=$('.tidy-menu').height();
 			}
 			if($(document).scrollTop()>heightComparison){
-				$('.tidy-menu,.tidy-menu-mini').css('position','fixed');
+				var firstMenu=$('.tidy-menu');
+				firstMenu=firstMenu[0];
+				$(firstMenu).css('position','fixed');
+				$('.tidy-menu-mini').css('position','fixed');
 			}else{
 				$('.tidy-menu,.tidy-menu-mini').css('position','relative');
 			}
-			// $('.main-section').css('margin-top',$('.tidy-menu').height());
 		}
 	}
 
