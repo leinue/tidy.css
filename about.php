@@ -24,6 +24,7 @@
 							<li>修复Tidy小屏幕菜单不兼容Safari问题</li>
 							<li>修复safari下页脚错位问题</li>
 							<li>修复safari下菜单点击无响应问题</li>
+							<li>修复safari下菜单图标显示错误问题</li>
 						</ol>
 					</legend>
 					<legend>

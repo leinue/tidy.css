@@ -34,12 +34,14 @@
 	// });
 
 	/*设置图标*/
-	// function setHeaderIcon(url,normalSize=20,hoverSize=30){
-	// 	$('.tidy-menu ul li.header-icon').css({
-	// 		'background':'url('+url+') no-repeat center center',
-	// 		'background-size':normalSize+'px'
-	// 	});
-	// }
+	function setHeaderIcon(url,normalSize,hoverSize){
+		normalSize=normalSize==null?20:normalSize;
+		hoverSize=hoverSize==null?30:hoverSize;
+		$('.tidy-menu ul li:nth-child(1)').css({
+	 		'background':'url('+url+') no-repeat scroll center center / '+normalSize+'px auto'
+	 	});
+	 	localStorage.headerIconStyle='url('+url+') no-repeat scroll center center / '+normalSize+'px auto';
+	}
 
 	// /*二级菜单开始*/
 	// $('.tidy-menu ul li').hover(function(){
@@ -239,7 +241,7 @@
 		if($('.main-section').height()<$(window).height()-$('footer').height()){
 			$('.main-section').css('height',prevHeight);
 		}else{
-			$('.main-section').css('height',$('.main-section').height()+100);
+			$('.main-section').css('height','auto');
 		}
 	}
 
@@ -251,7 +253,7 @@
 		$('.tidy-menu').css('margin-top',-$('.tidy-menu ul').height());
 		isMenuSlided=false;
 		$('.tidy-menu').append('<div class="tidy-menu-mini"><div style="width:100%;height:100%;padding:20px"></div></div>');
-		$('.tidy-menu-mini div').css('background','transparent url("images/logo.png") no-repeat scroll center center / 30px auto');
+		$('.tidy-menu-mini div').css('background',localStorage.headerIconStyle);
 	}
 
 	$('.tidy-menu-mini').click(function(){
