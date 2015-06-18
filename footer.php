@@ -1,6 +1,7 @@
 	<footer>
 		<div class="footer">
-			<p>Designed By <a href="http://ivydom.com">xieyang</a>,Build with <a href="http://tidy.ivydom.com">Tidy</a> version 0.1 on 2015-06-13</p>
+			<p>Designed By <a href="http://ivydom.com">xieyang</a>,Build with <a href="http://tidy.ivydom.com">Tidy</a> version 0.1 on 2015-06-13 <script src="http://s95.cnzz.com/stat.php?id=1255453855&web_id=1255453855"></script>
+</p>
 			<p>© 2015 <a href="http://ivydom.com">ivydom</a> All rights reserved.</p>
 		</div>
 	</footer>
