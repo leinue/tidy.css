@@ -256,7 +256,7 @@
 
 	setFooterPosition($(window).height()-$('footer').height());
 
-	var isMenuSlided=false;
+	var isMenuSlided=false;//
 
 	if($(document).width()<568){
 		$('.tidy-menu').css('margin-top',-$('.tidy-menu ul').height());
