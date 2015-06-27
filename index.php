@@ -7,7 +7,7 @@
 					<div class="hero-logo">
 						<h1>tidy.css</h1>
 					</div>
-					<h2 class="hreo-tagline">一款简洁、高效的免费响应式CSS3框架</h2>
+					<h2 class="hreo-tagline">一款简洁、高效的免费响应式CSS3框架 V0.1.1</h2>
 				</div>
 				<div class="hero-cta">
 					<div class="is-code-full">
