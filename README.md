@@ -5,4 +5,4 @@ This is a framework concerning responsive css layout
 <p>a tidy css framework</p>
 
 <h1>About</h1>
-<span>Website:</span><a href="http://tidycss.ivydom.com" target="_blank">http://tidycss.ivydom.com</a>
+<span>Website:</span><a href="http://tidy.ivydom.com" target="_blank">http://tidy.ivydom.com</a>
