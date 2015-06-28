@@ -555,7 +555,7 @@ input[type=file]:focus:invalid:focus,input[type=radio]:focus:invalid:focus,input
 }
 
 select {
-	height:2.25em;
+	height:2.5em;
 	border:1px solid #ccc;
 	background-color:#fff;
 }
