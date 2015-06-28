@@ -792,6 +792,7 @@ table.tidy-table td {
 }
 
 header{
+	z-index: 65535;
 	width: 100%;
 	background: rgb(252,252,252);
 	border-bottom: 1px solid rgb(236,236,236);

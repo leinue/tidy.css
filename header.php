@@ -13,7 +13,7 @@
 
 <body>
 	<header>
-		<div class="tidy-menu fixed alpha">
+		<nav class="tidy-menu fixed alpha">
 			<ul>
 				<li class="header-icon"></li>
 				<li><a href="index.php">首页</a></li>
@@ -39,7 +39,7 @@
 				<li><a href="about.php">关于</a></li>
 				<li><a href="http://ivydom.com">联系</a></li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 
 	<script>

@@ -240,7 +240,10 @@
 				var firstMenu=$('.tidy-menu');
 				firstMenu=firstMenu[0];
 				$(firstMenu).css('position','fixed');
-				$('.tidy-menu-mini').css('position','fixed');
+				$('.tidy-menu-mini').css({
+					'position':'fixed',
+					'top':'0'
+				});
 				var headerHeight;
 				if(!isScreenMini()){
 					headerHeight=$('.tidy-menu').height();
