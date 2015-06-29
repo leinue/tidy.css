@@ -387,9 +387,7 @@ a{
 }
 
 .btn-success:hover,.btn-error:hover,.btn-warning:hover,.btn-light:hover{
-	color: rgb(30,30,30);
 	background: rgba(255,255,255,0.1);
-	border: 1px solid rgb(205,205,205);
 }
 
 .btn-success{
@@ -397,9 +395,17 @@ a{
 	border: 1px solid rgb(28,184,64);
 }
 
+.btn-success:hover{
+	color: rgb(28, 184, 65);
+}
+
 .btn-error{
 	background: rgb(202, 60, 60);
 	border: 1px solid rgb(202,60,60);
+}
+
+.btn-error:hover{
+	color: rgb(202, 60, 60);
 }
 
 .btn-warning{
@@ -407,9 +413,17 @@ a{
 	border: 1px solid rgb(223,117,20);
 }
 
+.btn-warning:hover{
+	color: rgb(223, 117, 20);
+}
+
 .btn-light{
 	background: rgb(66, 184, 221);
 	border: 1px solid rgb(66,184,221);
+}
+
+.btn-light:hover{
+	color: rgb(66, 184, 221);
 }
 
 .btn-xs{
@@ -555,7 +569,7 @@ input[type=file]:focus:invalid:focus,input[type=radio]:focus:invalid:focus,input
 }
 
 select {
-	height:2.25em;
+	height:2.5em;
 	border:1px solid #ccc;
 	background-color:#fff;
 }
