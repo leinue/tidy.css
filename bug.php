@@ -8,6 +8,8 @@
 						<h1 style="font-size:80%">BUG提交</h1>
 					</div>
 					<h2 class="hreo-tagline">欢迎您提出在使用过程中发现的BUG:)我们会尽快解决</h2>
+					<h4>同时感谢以下贡献者:</h4>
+					<a href="http://www.microhu.com/">微狐网</a>
 				</div>
 			</div>
 		</div>
