@@ -19,6 +19,13 @@
 				<div class="content">
 					<h2 class="marketing-header">Tidy开发记录</h2>
 					<legend>
+						<p>2015-06-29</p>
+						<ol>
+							<li>增加不同类型按钮hover之后的边框颜色改变</li>
+							<li>修正select文字被挡的问题</li>
+						</ol>
+					</legend>
+					<legend>
 						<p>2015-06-28</p>
 						<ol>
 							<li>修正菜单栏无法居中且占用全屏的bug</li>
