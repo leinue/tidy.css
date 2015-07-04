@@ -256,6 +256,7 @@
 					'top':'0'
 				});
 				$('.tidy-menu').css('width','100%');
+				$('.main-section').css('margin-top',$('.tidy-menu').height()/3);
 			}else{
 				$('.tidy-menu,.tidy-menu-mini').css('position','relative');
 				var headerHeight;
@@ -270,6 +271,7 @@
 				});
 				var menuWidth=getMenuWidth();
 				$('.tidy-menu').css('width',menuWidth);
+				$('.main-section').css('margin-top',$('.tidy-menu').height());
 			}
 		}
 	}
@@ -349,6 +351,4 @@
 			location.reload();
 		}
 	});
-
-	/*1*/
 
